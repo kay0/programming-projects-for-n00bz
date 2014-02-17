@@ -3,9 +3,9 @@
 
 def reverse():
     print("Insert a string of characters:")
-    userString = input("> ")
-    for i in range(len(userString) - 1, -1, -1):
-        print(userString[i], end="")
+    userstring = input("> ")
+    for i in range(len(userstring) - 1, -1, -1):
+        print(userstring[i], end="")
 
 
 def main():

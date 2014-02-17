@@ -4,7 +4,6 @@
 def fib(n):
     first = 0
     second = 1
-    total = 0
 
     print(first)
     print(second)

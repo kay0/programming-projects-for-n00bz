@@ -5,9 +5,9 @@ import random
 
 
 def generate(length):
-    characterPool = string.ascii_letters + string.digits + '!@#$%^&*()-_=+'
+    character_pool = string.ascii_letters + string.digits + '!@#$%^&*()-_=+'
     for _ in range(0, length):
-        print(random.choice(characterPool), end="")
+        print(random.choice(character_pool), end="")
 
     print()
 
