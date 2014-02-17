@@ -220,7 +220,7 @@ letters = {" 0": "   ",
 
 
 def get_input():
-    print("Insert a string:")
+    print("Type something fun:")
     string_input = input("> ")
     return string_input
 
